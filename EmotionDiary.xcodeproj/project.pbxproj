@@ -14,6 +14,7 @@
 		CF9C989D287C2331006AB8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9C989C287C2331006AB8D7 /* Assets.xcassets */; };
 		CF9C98A0287C2331006AB8D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9C989E287C2331006AB8D7 /* LaunchScreen.storyboard */; };
 		CF9C98A8287CA1B5006AB8D7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C98A7287CA1B5006AB8D7 /* Data.swift */; };
+		CF9C98AA287D2141006AB8D7 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C98A9287D2141006AB8D7 /* SegmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CF9C989F287C2331006AB8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF9C98A1287C2331006AB8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF9C98A7287CA1B5006AB8D7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CF9C98A9287D2141006AB8D7 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				CF9C9893287C2330006AB8D7 /* AppDelegate.swift */,
 				CF9C9895287C2330006AB8D7 /* SceneDelegate.swift */,
 				CF9C9897287C2330006AB8D7 /* ViewController.swift */,
+				CF9C98A9287D2141006AB8D7 /* SegmentViewController.swift */,
 				CF9C98A7287CA1B5006AB8D7 /* Data.swift */,
 				CF9C9899287C2330006AB8D7 /* Main.storyboard */,
 				CF9C989C287C2331006AB8D7 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				CF9C9898287C2330006AB8D7 /* ViewController.swift in Sources */,
 				CF9C9894287C2330006AB8D7 /* AppDelegate.swift in Sources */,
+				CF9C98AA287D2141006AB8D7 /* SegmentViewController.swift in Sources */,
 				CF9C9896287C2330006AB8D7 /* SceneDelegate.swift in Sources */,
 				CF9C98A8287CA1B5006AB8D7 /* Data.swift in Sources */,
 			);
