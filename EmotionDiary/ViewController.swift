@@ -32,23 +32,10 @@ class ViewController: UIViewController {
     // MARK: methods
     @IBAction func emotionButtonTapped(_ sender: UIButton) {
     
-        var emotionIndex: Int = 0
-        
-        showAlertController()
-        
-        guard let keyword: String = sender.restorationIdentifier?.description, imageNames.contains(keyword) else { return }
-        
-        for (index, imageName) in imageNames.enumerated() {
-            
-            if imageName == keyword {
-                emotionIndex = index
-                emotionCounts[emotionIndex] += 1
-                updateEmotionLabel(index: emotionIndex)
-                return
-                
-            }
-        }
-                
+//        showAlertController()
+        let tag = sender.tag
+        emotionCounts[tag] += 1
+        updateEmotionLabel(index: tag)
     }
     
     func updateEmotionLabel(index: Int) {

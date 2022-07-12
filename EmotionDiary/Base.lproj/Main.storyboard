@@ -49,7 +49,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Myq-Jq-iBI">
                                                 <rect key="frame" x="113" y="0.0" width="105" height="127.5"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="sesac_slime2" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrV-UE-Jhj">
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" restorationIdentifier="sesac_slime2" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrV-UE-Jhj">
                                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="zrV-UE-Jhj" secondAttribute="height" multiplier="1:1" id="EDR-dr-HLQ"/>
@@ -71,7 +71,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="SPF-gl-XnN">
                                                 <rect key="frame" x="226" y="0.0" width="105" height="127.5"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="sesac_slime3" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPc-5k-f0y">
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" restorationIdentifier="sesac_slime3" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPc-5k-f0y">
                                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="DPc-5k-f0y" secondAttribute="height" multiplier="1:1" id="OH2-P6-CJV"/>
@@ -102,7 +102,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="TR5-FA-ybn">
                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="128"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="sesac_slime4" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOt-8G-iJb">
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" restorationIdentifier="sesac_slime4" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOt-8G-iJb">
                                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="JOt-8G-iJb" secondAttribute="height" multiplier="1:1" id="M8z-4m-P5w"/>
@@ -124,7 +124,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="4Xo-i5-mpe">
                                                 <rect key="frame" x="113" y="0.0" width="105" height="128"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="sesac_slime5" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZA-8F-uMJ">
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" restorationIdentifier="sesac_slime5" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZA-8F-uMJ">
                                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="bZA-8F-uMJ" secondAttribute="height" multiplier="1:1" id="Tzh-1E-XxH"/>
@@ -146,7 +146,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="JfW-zH-X4d">
                                                 <rect key="frame" x="226" y="0.0" width="105" height="128"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="sesac_slime6" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hth-FR-YKT">
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" restorationIdentifier="sesac_slime6" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hth-FR-YKT">
                                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="hth-FR-YKT" secondAttribute="height" multiplier="1:1" id="t9f-4p-3ab"/>
@@ -177,7 +177,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="YHE-vg-PoM">
                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="127.5"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="sesac_slime7" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAk-ch-ruX">
+                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" restorationIdentifier="sesac_slime7" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAk-ch-ruX">
                                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="iAk-ch-ruX" secondAttribute="height" multiplier="1:1" id="z56-H4-kss"/>
@@ -199,7 +199,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="PiF-Ef-wNj">
                                                 <rect key="frame" x="113" y="0.0" width="105" height="127.5"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="sesac_slime8" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGg-K4-2bv">
+                                                    <button opaque="NO" tag="7" contentMode="scaleToFill" restorationIdentifier="sesac_slime8" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGg-K4-2bv">
                                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="EGg-K4-2bv" secondAttribute="height" multiplier="1:1" id="cr8-6A-I8V"/>
@@ -221,7 +221,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="kW0-wR-45p">
                                                 <rect key="frame" x="226" y="0.0" width="105" height="127.5"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="sesac_slime9" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2x2-3U-hHn">
+                                                    <button opaque="NO" tag="8" contentMode="scaleToFill" restorationIdentifier="sesac_slime9" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2x2-3U-hHn">
                                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="2x2-3U-hHn" secondAttribute="height" multiplier="1:1" id="16t-oa-uvZ"/>
