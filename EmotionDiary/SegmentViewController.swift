@@ -30,9 +30,9 @@ class SegmentViewController: UIViewController {
         if segmentControl.selectedSegmentIndex == MusicType.all.rawValue {
             resultLabel.text = "첫번쨰 세그먼트 선택"
             
-        } else if segmentControl.selectedSegmentIndex == 1 {
+        } else if segmentControl.selectedSegmentIndex == MusicType.korea.rawValue {
             resultLabel.text = "두번째 세그먼트 선택"
-        } else if segmentControl.selectedSegmentIndex == 2 {
+        } else if segmentControl.selectedSegmentIndex == MusicType.pop.rawValue {
             resultLabel.text = "세번째 세그먼트 선택"
         } else {
             resultLabel.text = "오류"

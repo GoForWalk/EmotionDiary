@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF6CC162287E963C00976A28 /* AnniverseryCalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6CC161287E963C00976A28 /* AnniverseryCalenderViewController.swift */; };
 		CF9C9894287C2330006AB8D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C9893287C2330006AB8D7 /* AppDelegate.swift */; };
 		CF9C9896287C2330006AB8D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C9895287C2330006AB8D7 /* SceneDelegate.swift */; };
 		CF9C9898287C2330006AB8D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C9897287C2330006AB8D7 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF6CC161287E963C00976A28 /* AnniverseryCalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniverseryCalenderViewController.swift; sourceTree = "<group>"; };
 		CF9C9890287C2330006AB8D7 /* EmotionDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9C9893287C2330006AB8D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9C9895287C2330006AB8D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				CF9C98A9287D2141006AB8D7 /* SegmentViewController.swift */,
 				CF9C98A7287CA1B5006AB8D7 /* Data.swift */,
 				CF9C9899287C2330006AB8D7 /* Main.storyboard */,
+				CF6CC161287E963C00976A28 /* AnniverseryCalenderViewController.swift */,
 				CF9C989C287C2331006AB8D7 /* Assets.xcassets */,
 				CF9C989E287C2331006AB8D7 /* LaunchScreen.storyboard */,
 				CF9C98A1287C2331006AB8D7 /* Info.plist */,
@@ -147,6 +150,7 @@
 				CF9C9898287C2330006AB8D7 /* ViewController.swift in Sources */,
 				CF9C9894287C2330006AB8D7 /* AppDelegate.swift in Sources */,
 				CF9C98AA287D2141006AB8D7 /* SegmentViewController.swift in Sources */,
+				CF6CC162287E963C00976A28 /* AnniverseryCalenderViewController.swift in Sources */,
 				CF9C9896287C2330006AB8D7 /* SceneDelegate.swift in Sources */,
 				CF9C98A8287CA1B5006AB8D7 /* Data.swift in Sources */,
 			);
