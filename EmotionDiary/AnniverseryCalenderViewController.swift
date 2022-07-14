@@ -13,6 +13,7 @@ class AnniverseryCalenderViewController: UIViewController {
     @IBOutlet var opacityViews: [UIView]!
     @IBOutlet var imageSuperViews: [UIView]!
     @IBOutlet var imageViews: [UIImageView]!
+    @IBOutlet weak var datePicker: UIDatePicker!
     
     @IBOutlet var dDayLabels: [UILabel]!
     @IBOutlet var dateLabels: [UILabel]!
@@ -32,6 +33,7 @@ class AnniverseryCalenderViewController: UIViewController {
         setOpacityViews()
         setDDayLabel()
         // 오늘을 기준으로 D-day를 보여준다.
+        setUIDatePicker()
         setDateLabels(calender: Calendar.current, startDay: Date())
     }
         
@@ -72,6 +74,12 @@ class AnniverseryCalenderViewController: UIViewController {
         }
     }
     
+    func setUIDatePicker() {
+        if #available(iOS 14.0, *) {
+            datePicker.preferredDatePickerStyle = .inline
+        }
+    }
+    
     // MARK: UIDatePicker Value Changed IBAction
     @IBAction func datePickerValueChanged(_ sender: UIDatePicker) {
         setDateLabels(calender: sender.calendar, startDay: sender.date)
@@ -105,3 +113,4 @@ class AnniverseryCalenderViewController: UIViewController {
     }
     
 }
+

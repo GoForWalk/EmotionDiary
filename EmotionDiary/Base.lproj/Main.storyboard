@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="0cV-Z0-uTm">
-                                <rect key="frame" x="41.5" y="277.5" width="331" height="395"/>
+                                <rect key="frame" x="41.5" y="253" width="331" height="395"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zUe-bJ-04Q">
                                         <rect key="frame" x="0.0" y="0.0" width="331" height="127.5"/>
@@ -270,7 +270,13 @@
                                 <segue destination="9fL-9W-8Pe" kind="show" id="Czr-cc-g9z"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Y2f-TS-80W">
+                            <connections>
+                                <segue destination="ZAq-G3-nSr" kind="show" id="Ofw-b3-ODK"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outletCollection property="emotionLabels" destination="vcx-yV-8v7" collectionClass="NSMutableArray" id="Duh-R6-nOy"/>
                         <outletCollection property="emotionLabels" destination="EQg-Ky-OGC" collectionClass="NSMutableArray" id="Ymd-Oi-vjf"/>
@@ -296,7 +302,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xSe-TR-54S">
-                                <rect key="frame" x="141" y="244" width="132" height="31"/>
+                                <rect key="frame" x="141" y="288" width="132" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="chb-iH-wfM"/>
                                 </constraints>
@@ -309,7 +315,7 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jhk-cf-593">
-                                <rect key="frame" x="90" y="354" width="234" height="20.5"/>
+                                <rect key="frame" x="90" y="398" width="234" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -362,14 +368,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="B6i-GN-wZw">
-                                <rect key="frame" x="41.5" y="108" width="331" height="321"/>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="B6i-GN-wZw">
+                                <rect key="frame" x="41.5" y="108" width="331" height="216"/>
                                 <connections>
                                     <action selector="datePickerValueChanged:" destination="9fL-9W-8Pe" eventType="valueChanged" id="llS-8W-pBK"/>
                                 </connections>
                             </datePicker>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="req-nE-zwC">
-                                <rect key="frame" x="41.5" y="459" width="331" height="331.5"/>
+                                <rect key="frame" x="41.5" y="354" width="331" height="331"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="rft-ed-9hY">
                                         <rect key="frame" x="0.0" y="0.0" width="331" height="157.5"/>
@@ -480,19 +486,19 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RMk-K9-Z9p">
-                                        <rect key="frame" x="0.0" y="173.5" width="331" height="158"/>
+                                        <rect key="frame" x="0.0" y="173.5" width="331" height="157.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCP-im-J6p">
-                                                <rect key="frame" x="0.0" y="0.0" width="157.5" height="158"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="157.5" height="157.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m5K-Lb-Ksm">
-                                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="158"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="157.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="m5K-Lb-Ksm" secondAttribute="height" id="g6M-aP-d4c"/>
                                                         </constraints>
                                                     </imageView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NJI-Kq-ts9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="158"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="157.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D + 100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdr-8O-IRN">
                                                                 <rect key="frame" x="16" y="16" width="72" height="24"/>
@@ -535,16 +541,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tp2-cm-T4D">
-                                                <rect key="frame" x="173.5" y="0.0" width="157.5" height="158"/>
+                                                <rect key="frame" x="173.5" y="0.0" width="157.5" height="157.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6kz-vi-UcX">
-                                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="158"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="157.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="6kz-vi-UcX" secondAttribute="height" id="VHz-Te-s0k"/>
                                                         </constraints>
                                                     </imageView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NtB-1X-E6b">
-                                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="158"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="157.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D + 100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFn-26-q7H">
                                                                 <rect key="frame" x="16" y="16" width="72" height="24"/>
@@ -605,7 +611,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="기념일 계산기" id="KE0-XZ-PMT"/>
                     <connections>
-                        <outlet property="datePicker" destination="B6i-GN-wZw" id="Chb-PG-GP3"/>
+                        <outlet property="datePicker" destination="B6i-GN-wZw" id="hkq-Iq-bXf"/>
                         <outletCollection property="opacityViews" destination="8PS-4O-NZB" collectionClass="NSMutableArray" id="Gbo-vY-u0C"/>
                         <outletCollection property="opacityViews" destination="r8M-vb-AFI" collectionClass="NSMutableArray" id="ceh-cF-Qbg"/>
                         <outletCollection property="opacityViews" destination="NJI-Kq-ts9" collectionClass="NSMutableArray" id="aJC-Dh-chP"/>
